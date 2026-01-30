@@ -6,6 +6,14 @@
 
 > **Disclaimer:** *This is a personal portfolio project utilizing a synthetic dataset to demonstrate operational dashboarding capabilities. It is not affiliated with Deliveroo.*
 
+# 🛵 Deliveroo: Trust & Safety Operations Console
+
+![Badge](https://img.shields.io/badge/App_Version-v2.4-00CCBC?style=for-the-badge&logo=deliveroo&logoColor=white) ![Badge](https://img.shields.io/badge/Focus-Fraud_Ops-red?style=for-the-badge)
+
+> **Disclaimer:** This is a personal portfolio project utilizing a synthetic dataset to demonstrate operational dashboarding capabilities. It is a simulation of Gig Economy challenges and is not affiliated with Deliveroo.
+
+**The Concept:** A "Single-Page Application" (SPA) style dashboard designed to mimic the live operational tools used by Rider Support and Fraud teams.
+
 ---
 
 ## 🧭 Mission Directive
@@ -32,6 +40,17 @@ Deliveroo is facing a two-front crisis driven by regulatory pressure and operati
 8.  [Technical Implementation](#-technical-implementation)
 9.  [Data Dictionary](#-data-dictionary)
 
+
+## ⚡ Product Documentation
+1.  [Product Vision & Impact](#-product-vision--impact) *(Executive Summary)*
+2.  [User Stories & Problems Solved](#-user-stories--problems-solved) *(Key Business Questions)*
+3.  [Backend Engineering](#-backend-engineering) *(Data Structure)*
+4.  [App Interface Tour](#-app-interface-tour) *(Dashboard Deep Dive)*
+5.  [Design System (Bento Grid)](#-design-system-bento-grid) *(UI/UX)*
+6.  [Operational Optimizations](#-operational-optimizations) *(Strategic Recs)*
+7.  [Future Iterations](#-future-iterations) *(Assumptions)*
+8.  [Tech Stack & Code](#-tech-stack--code) *(Technical Implementation)*
+9.  [Event Log Definitions](#-event-log-definitions) *(Data Dictionary)*
 ---
 
 ## 🏆 Executive Summary & Impact
