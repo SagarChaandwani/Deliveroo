@@ -61,7 +61,7 @@ This dashboard serves as the central nervous system for the Operations team, all
 
 The data model is architected as a robust **Star Schema** to ensure high performance and enable cross-filtering between Financial (Orders), Operational (Verifications), and Demographic (Riders) data.
 
-![Data Model Screenshot](INSERT_MODEL_VIEW_IMAGE_LINK_HERE)
+![Data Model Screenshot](Dashboard_Previews/2.Model_View.png)
 
 *   **Fact Tables (The Events):**
     *   `Fact_Orders`: Contains granular order logs, refund amounts, Phantom flags, and reason codes (e.g., "Cold Food").
