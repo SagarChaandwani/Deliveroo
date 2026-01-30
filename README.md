@@ -1,11 +1,3 @@
-# Deliveroo Trust & Safety Operations
-
-| **Tech Stack** | **Architecture** | **Domain** |
-| :--- | :--- | :--- |
-| ![Power BI](https://img.shields.io/badge/Power_BI-Pro-yellow?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-Server-red?style=flat-square) ![DAX](https://img.shields.io/badge/DAX-Advanced-green?style=flat-square) | Star Schema / Single-Page App | Gig Economy & Fraud Ops |
-
-> **Disclaimer:** *This is a personal portfolio project utilizing a synthetic dataset to demonstrate operational dashboarding capabilities. It is not affiliated with Deliveroo.*
-
 # 🛵 Deliveroo: Trust & Safety Operations Console
 
 ![Badge](https://img.shields.io/badge/App_Version-v2.4-00CCBC?style=for-the-badge&logo=deliveroo&logoColor=white) ![Badge](https://img.shields.io/badge/Focus-Fraud_Ops-red?style=for-the-badge)
@@ -29,17 +21,6 @@ Deliveroo is facing a two-front crisis driven by regulatory pressure and operati
 
 ---
 
-## 📑 Table of Contents
-1.  [Executive Summary & Impact](#-executive-summary--impact)
-2.  [Key Business Questions Solved](#-key-business-questions-solved)
-3.  [Data Structure (Star Schema)](#-data-structure-star-schema)
-4.  [Dashboard Deep Dive (The Console)](#-dashboard-deep-dive-the-console)
-5.  [UI/UX Design Philosophy](#-uiux-design-philosophy)
-6.  [Strategic Recommendations](#-strategic-recommendations)
-7.  [Assumptions & Future Scope](#-assumptions--future-scope)
-8.  [Technical Implementation](#-technical-implementation)
-9.  [Data Dictionary](#-data-dictionary)
-
 
 ## ⚡ Product Documentation
 1.  [Product Vision & Impact](#-product-vision--impact) *(Executive Summary)*
@@ -53,7 +34,7 @@ Deliveroo is facing a two-front crisis driven by regulatory pressure and operati
 9.  [Event Log Definitions](#-event-log-definitions) *(Data Dictionary)*
 ---
 
-## 🏆 Executive Summary & Impact
+## 🏆 Product Vision & Impact
 
 This dashboard serves as the central nervous system for the Operations team, allowing them to block fraudulent accounts and minimize capital leakage immediately.
 
@@ -65,7 +46,7 @@ This dashboard serves as the central nervous system for the Operations team, all
 
 ---
 
-## ❓ Key Business Questions Solved
+## ❓ User Stories & Problems Solved
 
 | Stakeholder | Business Question | Solution Delivered |
 | :--- | :--- | :--- |
@@ -76,7 +57,7 @@ This dashboard serves as the central nervous system for the Operations team, all
 
 ---
 
-## 🗂 Data Structure (Star Schema)
+## 🗂 Backend Engineering
 
 The data model is architected as a robust **Star Schema** to ensure high performance and enable cross-filtering between Financial (Orders), Operational (Verifications), and Demographic (Riders) data.
 
@@ -92,7 +73,7 @@ The data model is architected as a robust **Star Schema** to ensure high perform
 
 ---
 
-## 🔍 Dashboard Deep Dive (The Console)
+## 🔍 App Interface Tour
 
 This is a **Single-Page Application (SPA)** designed for density and speed. It is divided into 14 distinct visual elements across 3 logical zones.
 
@@ -163,7 +144,7 @@ This is a **Single-Page Application (SPA)** designed for density and speed. It i
 
 ---
 
-## 🎨 UI/UX Design Philosophy
+## 🎨 Design System
 
 Unlike Executive Dashboards which use tabs, aggregation, and white space, this project utilizes a **"Mission Control"** philosophy.
 
@@ -176,7 +157,7 @@ Unlike Executive Dashboards which use tabs, aggregation, and white space, this p
 
 ---
 
-## 💡 Strategic Recommendations
+## 💡 Operational Optimizations
 
 Based on the console data, the following strategic interventions are recommended:
 
@@ -186,7 +167,7 @@ Based on the console data, the following strategic interventions are recommended
 
 ---
 
-## 🧠 Assumptions & Future Scope
+## 🧠 Future Iterations
 
 ### Assumptions
 *   **Phantom Order:** Defined as an order accepted and collected by the rider but marked "Delivered" without reaching the customer, or canceled post-pickup.
@@ -199,7 +180,7 @@ Based on the console data, the following strategic interventions are recommended
 
 ---
 
-## 🛠 Technical Implementation
+## 🛠 Tech Stack & Code
 
 ### SQL Transformation (The "Brain")
 *   **Note on Data Architecture:** While the portfolio demonstration utilizes a static dataset (Excel/CSV), the production data pipeline logic has been modeled in SQL to demonstrate scalability. See `scripts/Deliveroo_Ops_Transformation.sql` for the ELT logic.
@@ -224,7 +205,7 @@ Based on the console data, the following strategic interventions are recommended
 
 ---
 
-## 📖 Data Dictionary
+## 📖 Event Log Definitions
 
 | Term | Definition | Logic Used |
 | :--- | :--- | :--- |
