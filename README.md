@@ -1,4 +1,4 @@
-# 🛵 Deliveroo: Trust & Safety Operations Console
+# Deliveroo: Trust & Safety Operations Console
 
 ![Badge](https://img.shields.io/badge/App_Version-v2.4-00CCBC?style=for-the-badge&logo=deliveroo&logoColor=white) ![Badge](https://img.shields.io/badge/Focus-Fraud_Ops-red?style=for-the-badge)
 
